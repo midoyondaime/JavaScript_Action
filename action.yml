@@ -9,7 +9,7 @@ inputs:
     default: 0
 
 outputs:
-  results:
+  result:
     description: 'output of the sum of 2 numbers'
 runs:
   using: 'node20'
