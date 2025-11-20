@@ -1,0 +1,16 @@
+name: jsAction 
+description: calculator to test javascript actions
+inputs:
+  number1:
+    required: true
+    default: 0
+  number2:
+    required: true
+    default: 0
+
+outputs:
+  results:
+    description: 'output of the sum of 2 numbers'
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
