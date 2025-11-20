@@ -5,7 +5,7 @@ on:
 
 
 jobs:
-test-js-action:
+  test-js-action:
     name: Test JavaScript Action
     runs-on: ubuntu-latest
     steps:
